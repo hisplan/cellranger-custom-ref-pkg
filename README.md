@@ -18,8 +18,7 @@ The following files are NOT included during the build:
     ├── ctcf.bed            [pre-built references only]
     ├── dnase.bed           [pre-built references only, ENCODE sources: hg19, b37, mm10, Anshul Kundaje's pipeline: GRCh38]
     ├── enhancer.bed        [pre-built references only, source: Ensembl regulatory build release 95]
-    ├── promoter.bed        [pre-built references only, source: Ensembl regulatory build release 95]
-    └── tss.bed             [required, derived from first nt position of each transcript in genes.gtf]
+    └── promoter.bed        [pre-built references only, source: Ensembl regulatory build release 95]
 ```
 
 ## References
