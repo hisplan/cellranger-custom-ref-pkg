@@ -6,6 +6,22 @@
 $ ./mkref.sh
 ```
 
+## To Do
+
+The following files are NOT included during the build:
+
+```
+├── genes
+│   └── regulatory.gff      [pre-built references only, Ensembl sources: hg19, b37, GRCh38 and mm10]
+└── regions
+    ├── blacklist.bed       [pre-built references only, ENCODE sources: hg19, b37, GRCh38, mm10]
+    ├── ctcf.bed            [pre-built references only]
+    ├── dnase.bed           [pre-built references only, ENCODE sources: hg19, b37, mm10, Anshul Kundaje's pipeline: GRCh38]
+    ├── enhancer.bed        [pre-built references only, source: Ensembl regulatory build release 95]
+    ├── promoter.bed        [pre-built references only, source: Ensembl regulatory build release 95]
+    └── tss.bed             [required, derived from first nt position of each transcript in genes.gtf]
+```
+
 ## References
 
 Instructions:
