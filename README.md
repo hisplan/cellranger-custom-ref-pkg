@@ -6,6 +6,12 @@
 $ ./mkref.sh
 ```
 
+```bash
+$ sudo cp -r mm9 /opt/refdata-cellranger-atac-mm9-1.1.0
+$ sudo chown ec2-user /opt/refdata-cellranger-atac-mm9-1.1.0 -R
+$ sudo chgrp ec2-user /opt/refdata-cellranger-atac-mm9-1.1.0 -R
+```
+
 ## To Do
 
 The following files are NOT included during the build:
