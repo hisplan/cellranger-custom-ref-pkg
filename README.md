@@ -6,6 +6,8 @@
 $ ./mkref.sh
 ```
 
+Move the reference package created to the directory where Cell Ranger ATAC is installed:
+
 ```bash
 $ sudo cp -r mm9 /opt/refdata-cellranger-atac-mm9-1.1.0
 $ sudo chown ec2-user /opt/refdata-cellranger-atac-mm9-1.1.0 -R
