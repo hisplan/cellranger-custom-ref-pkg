@@ -1,12 +1,12 @@
 # cellranger-atac mm9
 
-## How to Run
+## How to Build
 
 ```bash
 $ ./mkref.sh
 ```
 
-Move the reference package created to the directory where Cell Ranger ATAC is installed:
+Move the reference package created to the directory where Cell Ranger ATAC is installed (e.g. `/opt`):
 
 ```bash
 $ sudo cp -r mm9 /opt/refdata-cellranger-atac-mm9-1.1.0
