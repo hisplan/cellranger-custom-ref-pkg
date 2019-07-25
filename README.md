@@ -32,17 +32,20 @@ The following files are NOT included during the build:
 ## References
 
 Instructions:
+
 - https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/advanced/references#mkref
 
-Ensembl
+### Ensembl
+
 - https://useast.ensembl.org/Mus_musculus/Info/Annotation
 - http://apr2019.archive.ensembl.org/Mus_musculus/Info/Index
-
-FASTA
 - ftp://ftp.ensembl.org/pub/release-96/fasta/mus_musculus/dna/Mus_musculus.GRCm38.dna.primary_assembly.fa.gz
-
-GTF
 - ftp://ftp.ensembl.org/pub/release-96/gtf/mus_musculus/Mus_musculus.GRCm38.96.gtf.gz
 
-JASPAR
+### Gencode
+
+- https://www.gencodegenes.org/mouse/release_M1.html
+
+### JASPAR
+
 - http://jaspar.genereg.net/downloads/
