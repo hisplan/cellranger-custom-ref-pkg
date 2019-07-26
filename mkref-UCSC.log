@@ -1,0 +1,21 @@
+cellranger-atac mkref (1.1.0)
+Copyright (c) 2019 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Non-standard genome name detected, building custom reference...
+
+>>> Creating reference for mm9-UCSC <<<
+
+Creating new reference folder at /home/ec2-user/refdata-cellranger-atac-mm9-1.1.0/mm9-UCSC
+Copying original fasta file into reference folder... done
+
+Generating samtools index...
+done
+
+Generating pyfasta indexes...
+    Number of contigs: 22
+    Total genome size: 2654911517
+done
+
+Copying original gene annotation file into reference folder... done
+
