@@ -7,14 +7,15 @@ Non-standard genome name detected, building custom reference...
 >>> Creating reference for mm9-Gencode_M1 <<<
 
 Creating new reference folder at /home/ec2-user/refdata-cellranger-atac-mm9-1.1.0/mm9-Gencode_M1
-Copying original fasta file into reference folder... done
+Downloading fasta files from source...
+done
 
 Generating samtools index...
 done
 
 Generating pyfasta indexes...
-    Number of contigs: 22
-    Total genome size: 2654911517
+    Number of contigs: 211
+    Total genome size: 2716965481
 done
 
 Downloading gene annotation files from source...
