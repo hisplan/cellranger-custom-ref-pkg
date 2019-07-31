@@ -4,7 +4,7 @@ import pysam
 from frogress import bar
 
 
-def main(path_input, path_output):
+def main(path_input):
 
     # read the original fragments file
     df = pd.read_csv(
@@ -54,8 +54,6 @@ def main(path_input, path_output):
     # iterate through problematic fragments and correct the coordinates
     for p in bar(problematics):
 
-        print(p)
-
         # retrieve the proper end of the contig
         proper_end = df_contigs.loc[df_contigs.chromosome ==
                                     p.contig, "len"].values[0]
@@ -66,7 +64,7 @@ def main(path_input, path_output):
 
     # write to disk
     df.to_csv(
-        path_output,
+        "fragments.tsv",
         sep="\t",
         header=False,
         index=False
@@ -85,13 +83,6 @@ def parse_arguments():
         required=True
     )
 
-    parser.add_argument(
-        "--output", "-o",
-        action="store",
-        dest="path_output",
-        required=True
-    )
-
     # parse arguments
     params = parser.parse_args()
 
@@ -103,6 +94,5 @@ if __name__ == "__main__":
     params = parse_arguments()
 
     main(
-        params.path_input,
-        params.path_output
+        params.path_input
     )
