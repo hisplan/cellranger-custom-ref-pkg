@@ -2,6 +2,7 @@
 
 set -euo pipefail
 
+source /opt/conda/etc/profile.d/conda.sh
 conda activate workplace
 
 export sample_name=`python -c "import json;fi=open('/home/ec2-user/inputs.json', 'rt');print(json.loads(fi.read())['SCATA.sampleName']);fi.close()"`
