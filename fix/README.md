@@ -2,8 +2,8 @@
 
 ```bash
 $ conda activate workplace
-$ export path_run_output="/home/ec2-user/runs/DACD404_b_CD45_ATAC_IGO_09971_4"
-$ python fix_fragments.py --input ${path_run_output}/outs/fragments.tsv.gz
+$ export sample_name="DACD404_b_CD45_ATAC_IGO_09971_4"
+$ python fix_fragments.py --input /home/ec2-user/runs/${sample_name}/outs/fragments.tsv.gz
 ```
 
 ```bash
@@ -15,9 +15,9 @@ $ tabix -p bed fragments.tsv.gz
 ```
 
 ```bash
-$ cp ./fragments.tsv.gz ${path_run_output}/outs/fragments.tsv.gz
+$ cp ./fragments.tsv.gz /home/ec2-user/runs/${sample_name}/outs/fragments.tsv.gz
 ```
 
 ```bash
-$ rm -rf ${path_run_output}_reanalysis
+$ rm -rf /home/ec2-user/runs/${sample_name}_reanalysis
 ```
