@@ -37,32 +37,29 @@ Run the Cell Ranger's `mkref` command:
 
 ```
 .
+├── refdata-cellranger-atac-hg19-Gencode-v28
+│   ├── fasta
+│   │   ├── genome.fa
+│   │   ├── genome.fa.amb
+│   │   ├── genome.fa.ann
+│   │   ├── genome.fa.bwt
+│   │   ├── genome.fa.fai
+│   │   ├── genome.fa.pac
+│   │   └── genome.fa.sa
+│   ├── genes
+│   │   └── genes.gtf.gz
+│   ├── regions
+│   │   ├── motifs.pfm
+│   │   ├── transcripts.bed
+│   │   └── tss.bed
+│   └── reference.json
+├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
+├── README.md
 ├── download.sh
 ├── fix_chr_names.py
+├── gencode.v28lift37.basic.annotation.fixed.gtf
 ├── gencode.v28lift37.basic.annotation.gtf
-├── gencode.v28lift37.basic.annotation.gtf.chr.txt
-├── gencode.v28lift37.basic.annotation.prefixed.gtf
 ├── hg19-Gencode_v28.config
 ├── hs37d5.fa
-├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
-├── mkref.sh
-├── README.md
-└── refdata-cellranger-atac-hg19-Gencode-v28
-    ├── fasta
-    │   ├── genome.fa
-    │   ├── genome.fa.amb
-    │   ├── genome.fa.ann
-    │   ├── genome.fa.bwt
-    │   ├── genome.fa.fai
-    │   ├── genome.fa.pac
-    │   └── genome.fa.sa
-    ├── genes
-    │   └── genes.gtf.gz
-    ├── reference.json
-    └── regions
-        ├── motifs.pfm
-        ├── transcripts.bed
-        └── tss.bed
-
-8 directories, 34 files
+└── mkref.sh
 ```

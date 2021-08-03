@@ -43,6 +43,41 @@ Run the Cell Ranger's `mkref` command:
 
 ```
 .
+├── refdata-cellranger-arc-hg19-Gencode-v28
+│   ├── fasta
+│   │   ├── genome.fa
+│   │   ├── genome.fa.amb
+│   │   ├── genome.fa.ann
+│   │   ├── genome.fa.bwt
+│   │   ├── genome.fa.fai
+│   │   ├── genome.fa.pac
+│   │   └── genome.fa.sa
+│   ├── genes
+│   │   └── genes.gtf.gz
+│   ├── regions
+│   │   ├── motifs.pfm
+│   │   ├── transcripts.bed
+│   │   └── tss.bed
+│   ├── star
+│   │   ├── Genome
+│   │   ├── SA
+│   │   ├── SAindex
+│   │   ├── chrLength.txt
+│   │   ├── chrName.txt
+│   │   ├── chrNameLength.txt
+│   │   ├── chrStart.txt
+│   │   ├── exonGeTrInfo.tab
+│   │   ├── exonInfo.tab
+│   │   ├── geneInfo.tab
+│   │   ├── genomeParameters.txt
+│   │   ├── sjdbInfo.txt
+│   │   ├── sjdbList.fromGTF.out.tab
+│   │   ├── sjdbList.out.tab
+│   │   └── transcriptInfo.tab
+│   └── reference.json
+├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
+├── Log.out
+├── README.md
 ├── check.py
 ├── download.sh
 ├── filter_gtf.sh
@@ -52,40 +87,6 @@ Run the Cell Ranger's `mkref` command:
 ├── gencode.v28lift37.basic.annotation.gtf
 ├── hg19-Gencode_v28.config
 ├── hs37d5.fa
-├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
-├── Log.out
 ├── mkref.sh
-├── README.md
-└── refdata-cellranger-arc-hg19-Gencode-v28
-    ├── fasta
-    │   ├── genome.fa
-    │   ├── genome.fa.amb
-    │   ├── genome.fa.ann
-    │   ├── genome.fa.bwt
-    │   ├── genome.fa.fai
-    │   ├── genome.fa.pac
-    │   └── genome.fa.sa
-    ├── genes
-    │   └── genes.gtf.gz
-    ├── reference.json
-    ├── regions
-    │   ├── motifs.pfm
-    │   ├── transcripts.bed
-    │   └── tss.bed
-    └── star
-        ├── chrLength.txt
-        ├── chrNameLength.txt
-        ├── chrName.txt
-        ├── chrStart.txt
-        ├── exonGeTrInfo.tab
-        ├── exonInfo.tab
-        ├── geneInfo.tab
-        ├── Genome
-        ├── genomeParameters.txt
-        ├── SA
-        ├── SAindex
-        ├── sjdbInfo.txt
-        ├── sjdbList.fromGTF.out.tab
-        ├── sjdbList.out.tab
-        └── transcriptInfo.tab
+└── requirements.txt
 ```
