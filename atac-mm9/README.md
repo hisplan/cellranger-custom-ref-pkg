@@ -3,8 +3,14 @@
 ## How to Build
 
 ```bash
-$ ./mkref.sh
+$ ./mkref-${name}.sh
 ```
+
+where `${name} could be one of the followings:
+
+- Ensembl_R67
+- Gencode_M1
+- UCSC
 
 Move the reference package created to the directory where Cell Ranger ATAC is installed (e.g. `/opt`):
 
