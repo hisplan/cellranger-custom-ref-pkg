@@ -8,8 +8,7 @@ def get_biotypes(gtf):
     elif "gene_type" in gtf.columns:
         return gtf.gene_type
     else:
-        logger.error("gene biotype is not found in the GTF!")
-        sys.exit(1)
+        raise Exception("gene biotype is not found in the GTF!")
 
 
 def check(path_gtf):
