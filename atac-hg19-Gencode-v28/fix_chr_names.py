@@ -3,7 +3,7 @@
 # input
 path_src_gtf="gencode.v28lift37.basic.annotation.gtf"
 # output
-path_dst_gtf="gencode.v28lift37.basic.annotation.prefixed.gtf"
+path_dst_gtf="gencode.v28lift37.basic.annotation.fixed.gtf"
 
 with open(path_dst_gtf, "wt") as fout:
     with open(path_src_gtf, "rt") as fin:
