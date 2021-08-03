@@ -46,22 +46,6 @@ Run the Cell Ranger's `mkref` command:
 ├── hs37d5.fa
 ├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
 ├── mkref.sh
-├── outs
-│   ├── fasta
-│   │   ├── genome.fa
-│   │   ├── genome.fa.amb
-│   │   ├── genome.fa.ann
-│   │   ├── genome.fa.bwt
-│   │   ├── genome.fa.fai
-│   │   ├── genome.fa.pac
-│   │   └── genome.fa.sa
-│   ├── genes
-│   │   └── genes.gtf.gz
-│   ├── reference.json
-│   └── regions
-│       ├── motifs.pfm
-│       ├── transcripts.bed
-│       └── tss.bed
 ├── README.md
 └── refdata-cellranger-atac-hg19-Gencode-v28
     ├── fasta

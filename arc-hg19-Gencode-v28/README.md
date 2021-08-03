@@ -50,6 +50,19 @@ Run the Cell Ranger's `mkref` command:
 ├── gencode.v28lift37.basic.annotation.filtered.fixed.gtf
 ├── gencode.v28lift37.basic.annotation.filtered.gtf
 ├── gencode.v28lift37.basic.annotation.gtf
+├── hg19-Gencode_v28.config
+├── hs37d5.fa
+├── JASPAR2018_CORE_vertebrates_non-redundant_pfms_jaspar.txt
+├── Log.out
+├── mkref.sh
+├── README.md
+└── refdata-cellranger-arc-hg19-Gencode-v28
+    ├── fasta
+    │   ├── genome.fa
+    │   ├── genome.fa.amb
+    │   ├── genome.fa.ann
+    │   ├── genome.fa.bwt
+    │   ├── genome.fa.fai
     │   ├── genome.fa.pac
     │   └── genome.fa.sa
     ├── genes
@@ -75,6 +88,4 @@ Run the Cell Ranger's `mkref` command:
         ├── sjdbList.fromGTF.out.tab
         ├── sjdbList.out.tab
         └── transcriptInfo.tab
-
-5 directories, 40 files
 ```
