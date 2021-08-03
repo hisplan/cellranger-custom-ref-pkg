@@ -1,1 +1,2 @@
-pyranges
+pyranges>=0.0.101
+tqdm>=4.61.2

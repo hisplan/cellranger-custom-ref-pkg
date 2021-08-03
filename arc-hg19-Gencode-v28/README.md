@@ -2,6 +2,17 @@
 
 Cell Ranger ARC v2 no longer provides the hg19 reference package out of the box. This is the instructions to create a hg19 reference package for Cell Ranger ARC v2.
 
+## Prerequisites
+
+- The Cell Ranger ARC executables/binaries should be accessible from anywhere.
+- Python 3
+
+Create a Python virtual environment and install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Build
 
 Download FASTA, GTF, and transcription factor motif position-weight matrices in JASPAR format:
@@ -16,13 +27,13 @@ Filter unnecessary genes (e.g. pseudogenes):
 ./filter_gtf.sh
 ```
 
-Fix the chromosome names:
+Fix the chromosome names (e.g. chr1 --> 1, chrX --> X, chrM --> MT, ...):
 
 ```bash
 python fix_chr_names.py
 ```
 
-Run the `mkref` command:
+Run the Cell Ranger's `mkref` command:
 
 ```bash
 ./mkref.sh
